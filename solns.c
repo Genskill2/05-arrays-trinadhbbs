@@ -1,6 +1,6 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
-/max function/
+/*max function*/
 int max(int a[], int n){
 int m=0 ;
  for ( int i = 0; i < n ; i++){
@@ -11,7 +11,7 @@ int m=0 ;
   return m;
 }
 
-/min function/
+/*min function*/
 int min(int a[], int n){
 int min = a[0] ;
      for(int i=1 ; i<n ; i++){
@@ -20,7 +20,7 @@ int min = a[0] ;
   }
  return min;
 }
-/average function/
+/*average function*/
 float average(int a[], int n){
  float sum = 0 ;
      for(int i=0; i<n ; i++){
@@ -29,7 +29,7 @@ float average(int a[], int n){
     }
     return sum/n;
 }
-/mode function/
+/*mode function*/
 int mode(int a[], int length){
    int n = max(a,length);
    int p = min(a,length);
@@ -54,7 +54,7 @@ int mode(int a[], int length){
    }
     return f;
 }
-/factors function/
+/*factors function*/
 int isprime(int n){
   for (int i = 2; i<n; i++){
     if(n%i==0){
